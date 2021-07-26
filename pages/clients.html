@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../css/style.css" type="text/css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+			integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<title>Clientes</title>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<a href="../index.html">
+					<img src="../assets/img/icon1.png" width="60vh"/>
+				</a>
+			</div>
+		</header>
+		<main>
+			<div class="container produtos">
+				<h2 class="titulo">Novo Cliente</h2>
+				<form id="client_form">
+					<div class="row">
+						<label for="fullname">Nome completo</label>
+						<input
+							type="text"
+							id="fullname"
+							name="fullname"
+							placeholder="João da Silva"
+						/>
+					</div>
+					<div class="row">
+						<label for="age">Idade</label>
+						<input
+							type="text"
+							id="age"
+							name="age"
+							placeholder="18"
+						/>
+					</div>
+					<div class="row">
+						<label for="city">Cidade</label>
+						<input
+							type="text"
+							id="city"
+							name="city"
+							placeholder="São Paulo"
+						/>
+					</div>
+					<div class="row">
+						<label for="uf">Estado</label>
+						<input
+							type="text"
+							id="uf"
+							name="uf"
+							placeholder="SP"
+						/>
+					</div>
+					<div class="row">
+						<label for="street">Endereço</label>
+						<input
+							type="text"
+							id="street"
+							name="street"
+							placeholder="Av. Paulista, 000 - Apto 00"
+						/>
+					</div>
+					<div class="row">
+						<label for="cep">CEP</label>
+						<input
+							type="text"
+							id="cep"
+							name="cep"
+							placeholder="90000-000"
+						/>
+					</div>
+					<div class="row">
+						<input class="cadastrar" type="submit" value="Cadastrar" />
+						<a href="../index.html"><i class="fas fa-arrow-alt-circle-left voltar"></i></a>
+						
+					</div>
+				</form>
+			</div>
+		</main>
+		<footer></footer>
+		<script src="../js/script.js" type="text/javascript"></script>
+		<script src="../assets/sweetalert/sweetalert.min.js" type="text/javascript"></script>
+	</body>
+</html>

@@ -1,0 +1,191 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+	background: url('../assets/img/stars.png');
+}
+
+header {
+	padding: 5px;
+	background-color: rgb(175, 5, 5);
+	color: #fff;
+	height: 60px;
+	text-align: center;
+	font-size: 30px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: vertical;
+}
+
+label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+
+a {
+	color: inherit;
+}
+
+.titulo {
+	color: rgb(175, 5, 5);
+	margin-bottom: 10px;
+}
+
+.logo {
+	size: 10px;
+	font-size: 50px;
+	align-content: center;
+	justify-items: center;
+	align-self: center;
+	align-content: center;
+	text-align: center;}
+	.logo img {
+		transition: 0.3s; }
+		.logo img:hover {
+		  transform: scale(1.2); }
+.row {
+	color: #ccc;
+}
+
+.botao {
+	background-color:  rgb(175, 5, 5);
+	color: white;
+	padding: 12px 20px;
+	margin-top: 25px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	align-self: center;
+	width: 100%;
+	height: 55px;
+	font-weight: bold;
+	font-size: medium;
+    box-shadow: 5px 5px 10px rgb(175, 5, 5);}
+	.botao {
+		transition: 0.3s; }
+		.botao:hover {
+		  transform: scale(1.2); }
+
+.texto-opcoes {
+	text-align: center;
+	color: white
+}
+
+.cadastrar {
+	background-color:  rgb(175, 5, 5);
+	color: white;
+	padding: 12px 20px;
+	margin-top: 15px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	align-self: center;
+	width: 200px;
+	height: 50px;
+	float: right;
+	font-weight: bold;
+	font-size: medium;
+	box-shadow: 5px 5px 10px rgb(175, 5, 5);}
+	.cadastrar {
+		transition: 0.3s; }
+		.cadastrar:hover {
+		  transform: scale(1.2); }
+
+.voltar {
+	color:  rgb(175, 5, 5);	
+	padding: 12px 20px;
+	margin-top: 20px;
+	font-size: 40px;
+	float: left;}
+	.voltar {
+		transition: 0.3s; }
+		.voltar:hover {
+		  transform: scale(1.5); }
+
+.voltar-lista {
+	color: rgb(175, 5, 5);
+	margin: 15px 0 0 15px;
+	font-size: 30px;}
+	.voltar-lista {
+		transition: 0.3s; }
+		.voltar-lista:hover {
+		  transform: scale(1.5); }
+
+.container {
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0);
+	/* background-image: url('../assets/img/starslightspeed.png');
+	background-size: auto 100%; */
+	padding: 20px;
+	width: auto;
+	margin: 50px auto;
+}
+
+.card-container {
+	margin: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.card {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+	gap: 25px;
+	padding: 20px;
+	justify-content: center;
+	justify-items: center;
+	align-items: left;
+	margin-bottom: 50px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.produtos {
+	max-width: 900px;
+}
+
+.principal {
+	max-width: 500px;
+	padding-bottom: 50px;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+	.card,
+	input[type="submit"] {
+		width: 100%;
+	}
+
+	.container {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
